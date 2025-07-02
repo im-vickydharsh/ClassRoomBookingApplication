@@ -1,0 +1,42 @@
+/* Global button styling */
+button {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Styling for approve button */
+button.approve {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+}
+
+/* Styling for reject button */
+button.reject {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: none;
+}
+
+/* Change button color on hover */
+button.approve:hover {
+    background-color: #45a049;
+}
+
+button.reject:hover {
+    background-color: #e41b14;
+}
+
+/* Layout styling */
+vaadin-vertical-layout {
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
